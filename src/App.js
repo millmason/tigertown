@@ -70,7 +70,13 @@ function App() {
             </a>{" "}
           </p>
           <p>
-            You can also check us out on instagram at @tigertowntattooparlor.
+            You can also check us out on instagram at{" "}
+            <a
+              href="https://instagram.com/tigertowntattooparlor?igshid=YmMyMTA2M2Y="
+              target="_blank"
+            >
+              @tigertowntattooparlor.
+            </a>
           </p>
         </section>
       </div>
