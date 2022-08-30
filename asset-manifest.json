@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tigertown/static/css/main.ce878a18.css",
+    "main.js": "/tigertown/static/js/main.a538b272.js",
+    "static/js/787.f7846509.chunk.js": "/tigertown/static/js/787.f7846509.chunk.js",
+    "static/media/tiger.png": "/tigertown/static/media/tiger.a87dbcf1e92d250070d5.png",
+    "static/media/map.png": "/tigertown/static/media/map.bd41317225fd6411ffd8.png",
+    "index.html": "/tigertown/index.html",
+    "main.ce878a18.css.map": "/tigertown/static/css/main.ce878a18.css.map",
+    "main.a538b272.js.map": "/tigertown/static/js/main.a538b272.js.map",
+    "787.f7846509.chunk.js.map": "/tigertown/static/js/787.f7846509.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce878a18.css",
+    "static/js/main.a538b272.js"
+  ]
+}
