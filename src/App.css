@@ -1,38 +1,150 @@
+/* General ********************************/
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #282c34;
+  background-color: #fefcf5;
+  padding-bottom: 80px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  width: 720px;
+  max-width: 84vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+  text-align: left;
 }
+
+section h3 {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #282c34;
+  border-bottom: 2px solid aquamarine;
+}
+
+a:hover {
+  border-bottom: 2px solid darkturquoise;
+}
+
+a:active {
+  border-bottom: 2px solid teal;
+}
+
+a:visited {
+  border-bottom: 2px solid teal;
+}
+
+/* Tiger Header ****************************/
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.headerText {
+  text-align: left;
+  max-width: 320px;
+  margin-bottom: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.headerText h1 {
+  font-size: 72px;
+  line-height: 66px;
+  margin-bottom: 12px;
+}
+
+.headerImage {
+  width: 400px;
+  max-width: 30vw;
+  position: absolute;
+  right: 10px;
+  top: 120px;
+}
+
+@media (min-width: 420px) {
+  .headerImage {
+    position: relative;
+    right: auto;
+    top: auto;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Location block ********************************/
+
+.location-content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 420px) {
+  .location-content {
+    flex-direction: row;
   }
+}
+
+.map-container {
+  height: 300px;
+  width: 360px;
+  overflow: hidden;
+  position: relative;
+  max-width: 82vw;
+  max-height: 72vw;
+}
+
+.map {
+  max-width: 92vw;
+  position: absolute;
+  width: 420px;
+  left: -50px;
+  top: -44px;
+}
+
+.hours {
+  font-size: 18px;
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  align-self: start;
+}
+
+@media (min-width: 420px) {
+  .hours {
+    margin-left: 80px;
+    align-self: end;
+  }
+}
+
+.hours-label {
+  font-weight: bold;
+  border-bottom: 3px solid aquamarine;
+  width: fit-content;
+}
+
+.hours ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.hours li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hours li span {
+  margin-right: 12px;
+}
+
+/* Contact block ****************************/
+
+.contact {
+  max-width: 640px;
 }
