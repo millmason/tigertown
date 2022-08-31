@@ -1,5 +1,5 @@
-import tiger from "./tiger.png";
-import map from "./map.png";
+import tiger from "./new_tiger_facing_left.png";
+import map from "./map-without-flag.png";
 import "./App.css";
 
 function App() {
