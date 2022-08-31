@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/tigertown/static/css/main.aefb9b82.css",
-    "main.js": "/tigertown/static/js/main.60490668.js",
+    "main.js": "/tigertown/static/js/main.c9acc403.js",
     "static/js/787.f7846509.chunk.js": "/tigertown/static/js/787.f7846509.chunk.js",
-    "static/media/tiger.png": "/tigertown/static/media/tiger.a87dbcf1e92d250070d5.png",
-    "static/media/map.png": "/tigertown/static/media/map.bd41317225fd6411ffd8.png",
+    "static/media/new_tiger_facing_left.png": "/tigertown/static/media/new_tiger_facing_left.c1a5066ba8dce594ab31.png",
+    "static/media/map-without-flag.png": "/tigertown/static/media/map-without-flag.4835a893ca45054ee6da.png",
     "index.html": "/tigertown/index.html",
     "main.aefb9b82.css.map": "/tigertown/static/css/main.aefb9b82.css.map",
-    "main.60490668.js.map": "/tigertown/static/js/main.60490668.js.map",
+    "main.c9acc403.js.map": "/tigertown/static/js/main.c9acc403.js.map",
     "787.f7846509.chunk.js.map": "/tigertown/static/js/787.f7846509.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aefb9b82.css",
-    "static/js/main.60490668.js"
+    "static/js/main.c9acc403.js"
   ]
 }
