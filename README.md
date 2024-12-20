@@ -29,6 +29,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+Working on this little landing page for my buds! 
+
 Desktop: 
 ![Screen Shot 2022-08-30 at 8 36 01 AM](https://user-images.githubusercontent.com/11150372/187479887-b9b6ae7f-0001-4966-80a0-f7483843533d.png)
 
